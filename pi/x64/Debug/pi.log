@@ -1,0 +1,22 @@
+﻿生成启动时间为 2021/10/14 19:46:26。
+     1>项目“E:\C\pi\pi\pi.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\pi.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\VS2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt pi.cpp
+         pi.cpp
+     1>pi.cpp(7): warning C4101: “i”: 未引用的局部变量
+       Link:
+         e:\VS2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C\pi\x64\Debug\pi.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\pi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C\pi\x64\Debug\pi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C\pi\x64\Debug\pi.lib" /MACHINE:X64 x64\Debug\pi.obj
+         LINK : 没有找到 E:\C\pi\x64\Debug\pi.exe 或上一个增量链接没有生成它；正在执行完全链接
+         pi.vcxproj -> E:\C\pi\x64\Debug\pi.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\C\pi\x64\Debug\pi.exe;#1" /manifest x64\Debug\pi.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\pi.unsuccessfulbuild”。
+         正在对“x64\Debug\pi.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\C\pi\pi\pi.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.72
